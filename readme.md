@@ -10,7 +10,8 @@ The output of each encryption/decryption operation is automatically printed to t
 
 Run the program with the command "python enc.py". 
 You will be prompted to select a task and then prompted for a file name. 
-You can supply a file path to another directory, but it is most straightforward to put the program enc.py in the same folder as the file to be encrypted. The new file will be saved to the folder where enc.py is located.  
+You can supply a path to a file in another directory or a filename for the current directory. 
+When writing the encrypted file, you can supply a file path to another directory or a filename that will be saved in the working directory. 
 
 Your password is not stored anywhere and acts on the document data directly. Do not lose or forget your password or you will be unable to recover your file (if you choose to delete the original). 
 
