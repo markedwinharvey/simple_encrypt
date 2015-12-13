@@ -30,7 +30,7 @@ def main():
 			file = raw_input('Enter filename, path, or q: ')
 		if file == 'q': exit()#exit
 		with open(file,'r') as f:
-				file1 = f.read()
+			file1 = f.read()
 		pw = ''
 		while pw == '' or not all([False if x not in chars else x for x in pw]):
 			pw = getpass.getpass('Enter password for file '+edq_alert[edq.index(task)]+'ion (A-z,0-9,symbols):')
